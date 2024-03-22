@@ -1,0 +1,109 @@
+body
+{
+    background-color: rgb(4, 64, 115);
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    height:40px;
+    border-radius: 5px;
+    border: 2px solid rgb(145, 189, 227);
+    background-color: rgb(141, 199, 226);
+    
+}
+.text
+{
+    
+    margin-top: 10px;
+}
+.empty
+{
+    width:100px;
+}
+
+.search
+{
+    background-color: rgb(66, 120, 171);
+    height:40px;
+    width:400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#heading
+{
+    text-align: center;
+    margin-top: 30px;
+    color: azure;
+}
+.boxes
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box
+{
+    border:2px solid rgb(131, 178, 239);
+    height:250px;
+    width:400px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.head1
+{
+    height:25px;
+    width:400px;
+    border-bottom: 2px solid rgb(36, 93, 168);
+    color: aliceblue;
+}
+.content
+{
+    height:150px;
+    width:400px;
+    color: aliceblue;
+    padding-left: 130px;
+    
+}
+.enter
+{
+    height:30px;
+    width:400px;
+    background-color: rgb(78, 180, 232);   
+    border-radius: 8px;
+}
+.para
+{
+    text-align: center;
+
+}
+.table
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+table
+            
+            th,td
+            {
+                padding:20px;
+            }
+            table,th,td
+            {
+                
+                border-collapse:collapse;
+                border-style:SOLID;
+                border-color:rgb(10, 9, 96);
+            }
+            tr
+            {
+                background-color: rgb(181, 213, 228);
+            }
+            
+            th{
+                text-align:left;
+            }
+        
